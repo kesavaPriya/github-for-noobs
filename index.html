@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html ng-app="Volcker">
+
+<head>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link href="https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="css/select.css">
+<link rel="stylesheet" href="css/ng-table.min.css">
+<link rel="stylesheet" type="text/css" href="css/wizard.css">
+<!-- <link rel="stylesheet" href="css/nxn_ui_grid.css"> -->
+<link rel="stylesheet" href="css/angular-chart.css">
+<link rel="stylesheet" href="css/ng-scrollbar.css">
+<link rel="stylesheet" href="main.css">
+
+<link rel="stylesheet" href="css/Volcker.css">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>GSSS - Volcker</title>
+</head>
+
+<body ng-controller="mainCtrl">
+    <div  class="wrapper" >
+<!--         header starts > -->
+        <div ng-include src="mainheader" class="container" ></div>
+        <div ng-include src="navurl" class="container"></div>
+        <!-- header ends -->
+
+ 
+ 
+	 <!-- Main content -->
+        <div ng-view >
+		
+        </div>
+        
+       
+        </div>
+         <!-- Footer starts -->
+    	<div ng-include src="mainfooter" class="pgfooter"></div>
+        <!-- Footer ends -->
+        <script type="text/javascript" src="js/lib/jquery.js"></script>
+    
+    <script type="text/javascript" src="js/lib/angular.js"></script>
+    <script type="text/javascript" src="js/lib/Chart.js"></script>  
+    <script type="text/javascript" src="js/lib/angular-chart.js"></script> 
+    <script type="text/javascript" src="js/lib/angular-route.js"></script>
+    <script type="text/javascript" src="js/lib/angular-sanitize.js"></script>
+    <script type="text/javascript" src="js/lib/spin.js"></script>
+    <script type="text/javascript" src="js/lib/angular-spinner.js"></script>
+      
+    <script type="text/javascript" src="js/lib/widgets.js"></script>
+    <script type="text/javascript" src="js/lib/wizard.ngmin.js"></script>
+     <script type="text/javascript" src="js/nxn.tab.directive.js"></script>
+    <script src="js/lib/ui-grid.min.js"></script>  
+<!--     <script src="js/lib/nxnNgTableParams.controller.js"></script> -->
+    <script src="js/lib/nxnNgTableParams.js"></script>
+<!--     <script src="js/lib/nxnTableColumns.directive.js"></script>  -->
+    <script type="text/javascript" src="js/lib/ng-scrollbar.js"></script>
+    <script type="text/javascript" src="js/lib/select.js"></script>
+    <script type="text/javascript" src="js/lib/ng-table.js"></script>
+     <script type="text/javascript" src="js/lib/nxnNgTableParams.js"></script>
+    <script type="text/javascript" src="js/lib/bootstrap.js"></script>
+    
+    <script type="text/javascript" src="js/lib/ui-bootstrap-tpls.min.js"></script>
+     
+    <script type="text/javascript" src="js/Volcker.js"></script>
+<div class="device-xs visible-xs">helloxs</div>
+<div class="device-sm visible-sm">hellosm</div>
+<div class="device-md visible-md">hellomd</div>
+<div class="device-lg visible-lg">hellolg</div>
+</body>
+</html>
